@@ -12,6 +12,7 @@ const Menu = () => {
         ingredients={pizza.ingredients}
         price={pizza.soldOut ? "SOLD OUT" : pizza.price}
         key={i}
+        soldOut={pizza.soldOut}
         // Adding a unique key for React list rendering
       />
     );
